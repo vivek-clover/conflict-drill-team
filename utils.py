@@ -1,2 +1,2 @@
 def clean_text(text):
-    return text.strip().replace('.', '')
+    return text.strip().lower().replace('.', '')
